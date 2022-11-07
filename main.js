@@ -57,8 +57,6 @@ const pizzas = [
 pizzas.forEach((pizzas) => {
   if (pizzas.id % 2 === 1) {
     console.log(`La pizza ${pizzas.nombre} tiene un ID impar `);
-  } else {
-    console.log(`La pizza ${pizzas.nombre} tiene un ID par`);
   }
 });
 
